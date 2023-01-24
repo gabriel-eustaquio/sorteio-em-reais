@@ -1,0 +1,32 @@
+body {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+p::before {
+  content: '';
+  width: 24px;
+  height: 4px;
+  display: inline-block;
+  background-color: #E9A0FB;
+}
+
+button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #E9A0FB;
+  color: #2A0034;
+  font-weight: 700;
+  text-transform: uppercase;
+}
